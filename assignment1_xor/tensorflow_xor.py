@@ -17,9 +17,8 @@ phase1. assemble a graph
 #define optimizer
 
 
-
 """
-#phrase2. use a session to execute operations in the graph
+phase2. use a session to execute operations in the graph
 """
 with tf.session() as sess:
 	#init variables
